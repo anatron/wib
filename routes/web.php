@@ -42,6 +42,10 @@ Route::get('/aboutus', function(){
     return view('aboutus');
 });
 
+Route::get('/expensesgraph', function(){
+    return view('expensesgraph');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
