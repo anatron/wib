@@ -40,6 +40,48 @@
                         </div>
 
                         <div class="form-group row">
+                            <label for="business_name" class="col-md-4 col-form-label text-md-right">Business Name</label>
+
+                            <div class="col-md-6">
+                                <input id="business_name" type="text" class="form-control @error('business_name') is-invalid @enderror" name="business_name" value="{{ old('business_name') }}" required>
+
+                                @error('business_name')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+
+                        <div class="form-group row">
+                            <label for="website" class="col-md-4 col-form-label text-md-right">Website</label>
+                            <div class="col-md-6">
+                                <input id="website" type="text" class="form-control @error('website') is-invalid @enderror" name="website" value="{{ old('website') }}" required>
+
+                                @error('website')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="linkedin_link" class="col-md-4 col-form-label text-md-right">LinkedIn Link</label>
+                            <div class="col-md-6">
+                                <input id="linkedin_link" type="text" class="form-control @error('linkedin_link') is-invalid @enderror" name="linkedin_link" value="{{ old('linkedin_link') }}" required>
+
+                                @error('linkedin_link')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        
+
+                        <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
