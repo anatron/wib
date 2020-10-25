@@ -10962,3 +10962,56 @@ body {
   background-color: #DDCECD;
 }
 
+.pCentre h1 {
+  text-align: center;
+  color: #19647e;
+}
+
+.profileImg {
+  border-radius: 200px;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 50px;
+}
+
+.profile {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  padding: 20px 50px;
+  text-align: left;
+  color: #37392e;
+  border: solid 1px;
+  border-color: #ddcecd;
+  background-color: white;
+}
+
+.pCenter {
+  text-align: center;
+}
+
+.pContent {
+  padding: 30px;
+  border-bottom: solid 1px;
+  border-color: #ddcecd;
+}
+
+.edit {
+  float: right;
+  border: solid 1px #28afb0;
+  background-color: #19647e;
+  color: #eee5e5;
+  border-radius: 300px;
+  padding: 7px;
+  text-align: center;
+}
+
+/*footer*/
+
+footer {
+  background-color: #19647e;
+  color: #eee5e5;
+  height: 200px;
+}
+

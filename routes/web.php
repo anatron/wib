@@ -50,3 +50,4 @@ Route::get('/networking','App\Http\Controllers\ProfileController@index');
 Route::get('/investors', 'App\Http\Controllers\InvestorController@index');
 Route::get('/editprofile','App\Http\Controllers\ProfileController@edit');
 Route::patch('/editprofile','App\Http\Controllers\ProfileController@update')->name('profile.edit');
+Route::get('/profile','App\Http\Controllers\ProfileController@show');
