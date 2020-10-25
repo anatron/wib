@@ -21,7 +21,7 @@
             <input class="input1"><br>
             <label><h3>How much did you spend on bills?</h3></label>
             <input class="input1"><br>
-            <label><h3>How much di you spend on travel?</h3></label>
+            <label><h3>How much did you spend on travel?</h3></label>
             <input class="input1"><br>
             <button type="submit" class="eButton"><a href="/expensesgraph">
                 Submit</a></button><br>

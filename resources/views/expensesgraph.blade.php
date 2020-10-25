@@ -2,6 +2,6 @@
 
 @section('content')
 
-<img class="eGraph" src="barchart2.png"><br>
+<img class="eGraph" src="{{ asset('img/barchart2.png') }}"><br>
 
 @endsection
