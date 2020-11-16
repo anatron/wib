@@ -11,7 +11,7 @@
         <nav class="navbar navbar-expand-md  navbar-dark shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Woman in Business
+                    Women in Business
                 </a>
             <a class="nav-link" href="/home">Home</a>
             @auth
